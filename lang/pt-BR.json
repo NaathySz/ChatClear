@@ -1,0 +1,5 @@
+{
+    "No permission": "Você não tem permissão para executar esse comando",
+    "Can only be executed by player": "Esse comando só pode ser executado por um jogador",
+    "Chat cleared": "Chat limpo por {red}{0}"
+}
