@@ -28,8 +28,8 @@ public class ChatClearConfig : BasePluginConfig
 
 public class ChatClear : BasePlugin, IPluginConfig<ChatClearConfig>
 {
-    public override string ModuleName => "ChatClear";
-    public override string ModuleVersion => "1.0.0";
+    public override string ModuleName => "Chat Cleaner";
+    public override string ModuleVersion => "1.0.1";
     public override string ModuleAuthor => "Nathy";
     public override string ModuleDescription => "Clear the chat for a player or for all players.";
 
@@ -64,7 +64,7 @@ public class ChatClear : BasePlugin, IPluginConfig<ChatClearConfig>
         {
             if (Config.AdminsOnly && !AdminManager.PlayerHasPermissions(caller, Config.ChatClearPermission))
             {
-                caller.PrintToChat("You do not have permission to use this command.");
+                caller.PrintToChat(Localizer["No permission"]);
                 return;
             }
 
