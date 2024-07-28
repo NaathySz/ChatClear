@@ -1,4 +1,4 @@
-## ChatClear
+## ChatCleaner
 A plugin to clear chat. Includes two commands: 
 - Clear your own chat
 - Clear chat for all players
